@@ -1,0 +1,109 @@
+.body{
+    margin:0;
+}
+
+.top-background{
+    background-image:url(../home/dan-burton-CuCSy7zYrdA-unsplash.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-color:rgb(255, 255, 255);
+}
+
+.menu{
+    text-align:center;
+    font-size:18px;  
+}
+
+.menu-ul{
+    padding:10px ;
+}
+
+.menu-ul li{
+    display: inline-block;
+    font-variant:small-caps ;
+    letter-spacing:  3px;
+    padding: 10px 30px;
+}
+
+a{
+    border-bottom: 1px solid transparent;
+    color:rgb(233, 233, 233);
+    text-decoration: none;
+}
+
+a:hover{
+    border-bottom: 1px solid rgb(248, 247, 247);
+}
+
+.sticky{
+    background:#1b3549;
+    position:fixed;
+    widows: 100px;
+    z-index: 100;
+    width: 100%;
+}
+
+.sticky ul{
+    padding: 0;
+    margin: 10px;
+}
+
+.page-title{
+    text-align: center;
+    font-size: 50px;
+    padding: 200px;
+    color: white;
+    letter-spacing: 10px;
+    text-shadow: 0 5px #a7a7a7;
+}
+
+.description, .title{
+    font-variant: small-caps;
+    font-size: 30px;
+    margin:20px;
+}
+
+.page-blocker{
+    text-align:center;
+    margin-top:50px;
+}
+
+.title{
+    letter-spacing: 10px;
+    color:#1b3549;
+    text-align: center;
+}
+
+.design img{
+    height: 300px;
+    max-width: 300px;
+    margin: 15px;
+
+}
+
+.design{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-designs-btn{
+    background: transparent;
+    border: 2px solid #1b3549;
+    color: #1b3549;
+    font-weight: 300;
+    padding: 10px;
+    margin: 10px;
+    letter-spacing: 2px;
+    
+}
+
+.more-designs-btn:hover{
+    background:#1b3549 ;
+    color: white;
+    transition: all 0.5s;
+    text-align: center;
+}

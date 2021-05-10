@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>    
+<title>Interior design</title>
+<meta name="Generator" content="Editplus">
+<meta name="Author" content="">
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+<link rel="stylesheet" href="CSS/style.css">
+
+<SCript>
+    function stickyMenu(){
+        var sticky= document.getElementById("sticky");
+        if(window.pageYOffset > 20){
+            sticky.classList.add("sticky");
+            sticky.classList.remove("menu-ul");
+        }
+        else{
+            sticky.classList.remove("sticky");
+        }
+    }
+
+    window.onscroll = function(){
+        stickyMenu();
+    }
+</SCript>
+</head>
+
+<body>
+    <div class="top-background">
+        <div class="menu" id="sticky">
+            <ul class="menu-ul">
+                <li><a href="">Home</a></li>
+                <li><a href="">Our Designs</a></li>
+                <li><a href="">Why Us</a></li>
+                <li><a href="">Appoinment</a></li>
+            </ul>    
+        </div>
+        <div class="page-title">INTERIOR DESIGNS
+            <div class="description">
+                Let us make your home HEAVEN
+            </div>
+        </div>       
+
+    </div>
+<!--Our Design block-->
+    <div class="page-blocks">
+        <div class="title">
+            Our Designs
+        </div>
+        <div class="design">
+            
+            <img src="erick-lee-hodge-el_V6z_h5nA-unsplash.jpg"/>
+            <img src="img/OFFICE-5.jpg"/>
+            <img src="img/OFFICE-7.jpg"/>
+            <img src="img/risen-wang-20jX9b35r_M-unsplash.jpg"/>
+            <img src="img/roberto-nickson-bwIqQ5qQhXs-unsplash.jpg"/>
+            <img src="img/sidekix-media-_AK42TQRyCw-unsplash.jpg"/>
+            <img src="img/todd-diemer-SEFR62Upnqw-unsplash.jpg"/>
+            <img src="img/new/andre-francois-mckenzie-sZ5CteK2r6E-unsplash.jpg"/>
+            <img src="img/new/christian-mackie-euBmypOZUZA-unsplash.jpg"/>
+            <img src="img/new/francesca-tosolini-tHkJAMcO3QE-unsplash.jpg"/>
+        </div>
+        <button class="more-designs-btn">More Designs</button>
+    </div>  
+<!--why us block-->  
+    <div class="page-blocks">
+        <div class="title">
+            Why Us
+        </div>
+        <div class="flex-block">
+            <div class="why-us-flex-item">
+                <div class="block-label">
+                    Our Projects
+                </div>
+                <div class="block-description">Our expert designers are well trained and equipped with major modern interior designing tools that help us
+                    provide you with innovative solutions and unique interior decor plans that stand out.
+                </div>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
+
